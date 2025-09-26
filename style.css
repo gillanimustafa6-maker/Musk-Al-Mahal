@@ -1,0 +1,450 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/****** Header Section Start ******/
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(199, 150, 4);
+    height: 35px;
+}
+.top p{
+    margin-left: 50px;
+    color: rgb(237, 245, 244);
+    font-family:'Franklin Gothic Medium';
+    font-weight:600;
+    font-size: 15px;
+    height: 15px;
+    letter-spacing: 0.3px;
+}
+
+.top-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.top-icons a{
+    padding: 5px;
+}
+
+.top-icons a i{
+    color: aliceblue;
+}
+
+.top-2{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 16, 16);
+}
+
+
+.search-bar{
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    margin-left: 50px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    width: 290px;
+    transition: box-shadow 0.25s;
+
+}
+.search-bar:focus-within {
+    box-shadow: 0 0 2px     rgba(0, 0, 0, 0.75);
+}
+
+.input-search{
+    font-size: 16px;
+    color: #333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.input-search::placeholder,
+.search-icon {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+
+.logo img{
+    height: 100px;
+    width: 220px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-right: 30px;
+}
+
+.cart i{
+    color: aliceblue;
+    margin: 20px;
+
+}
+.cart a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+/****** Header Section end ******/
+
+
+
+
+
+
+/******* Main section Start *******/
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    height: 45px;
+
+}
+
+.menu a{
+    color: aliceblue;
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-left:  30px;
+    height: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+menu a:hover{
+
+    text-decoration: underline;
+    text-underline-offset: 25px;
+}
+
+
+
+
+.main-img img{
+    width: 1521px;
+    height: 570px;
+}
+
+.best-sellers{
+
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    padding-top: 60px;
+    cursor:pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.product-1 img{
+    height: 280px;
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 10px;
+}
+
+.p-name{
+    margin-left: 10px;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(243, 244, 245);
+    font-family: sans-serif;
+    color: rgb(14, 15, 16);
+    height: 200px;
+}
+
+.rate{
+    display: flex;
+    color: rgb(255, 193, 37);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 18px;
+}
+.rate p{
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.star-icon{
+    display: flex;
+    font-family: 'Courier New', Courier;
+    
+}
+
+.star-icon i{
+    color: rgb(254, 188, 20);
+}
+
+
+.fire-icon{
+    display: flex;
+}
+
+.fire-icon i{
+    color: rgb(236, 191, 75);
+}
+
+.fire-icon p{
+    color: slategray;
+}
+
+.Flower-i p{
+    color: slategray;
+}
+
+.rate-2{
+    display: flex;
+    color: rgb(255, 193, 37);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.rate-2 p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-decoration: line-through;
+
+}
+
+.img-2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.pic{
+    /* display: flex;   */
+    width: 100%;
+    height: 100vh;
+
+    
+}
+
+.pic-1 img{
+    width: 507px;
+    height: 780px;
+    position: absolute;
+
+}
+
+
+.text-1{
+    position: relative;
+    margin-top: 650px;
+    text-align: center;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.text-1 h2{
+    color:aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.text-1 a{
+    color: #333;
+    background-color:azure;
+    margin-top: 40px;
+    padding: 12px 42px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+}
+
+.pic-2 img{
+    width: 507px;
+    height: 780px;
+    position: absolute;
+}
+
+.text-2{
+    position: relative;
+    margin-top: 650px;
+    text-align: center;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.text-2 h2{
+    color:aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.text-2 a{
+    color: black;
+    background-color:azure;
+    margin-top: 40px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+}
+
+
+.pic-3 img{
+    position: absolute;
+    width: 507px;
+    height: 780px;
+}
+.text-3{
+    position: relative;
+    margin-top: 650px;
+    text-align: center;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.text-3 h2{
+    color:aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.text-3 a{
+    color: #333;
+    background-color:azure;
+    margin-top: 40px;
+    padding: 12px 22px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+}
+
+.heading-1{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+    color:azure;
+    text-align: center;
+    padding: 25px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.new-arrival{
+    text-align: center;
+    margin-top:  20px;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.productss img{
+    width: 330px;
+    margin: 10px;
+}
+
+.productss h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(2, 0, 0);
+}
+
+.img-4 img{
+    width: 1521px;
+    margin-top: 15px;
+}
+
+.w-collection{
+    padding: 50px;
+}
+.w-collection h1 {
+    font-family:sans-serif;
+    font-size: 28px;
+}
+
+.e-attars img{
+    width: 1521px;
+}
+
+.e-collection h1{
+    margin: 50px;
+    font-family:  Arial, sans-serif;
+    font-size: 28px;
+}
+
+
+.e-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-attars{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.p-attars img{
+    width: 710px;
+    margin-left: 20px;
+
+}
+
+.p-bakhoors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-bakhoors img{
+    width: 710px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
