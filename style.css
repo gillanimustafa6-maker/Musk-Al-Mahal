@@ -386,6 +386,13 @@ menu a:hover{
 .productss img{
     width: 330px;
     margin: 10px;
+    transition-duration: 0.2s;
+    transition-delay: 0.4ms;
+    transition-timing-function: ease-out
+;
+}
+.productss img:hover{
+    margin-top: 1px;
 }
 
 .productss h4{
@@ -446,5 +453,298 @@ menu a:hover{
     width: 710px;
     margin-left: 20px;
     margin-top: 5px;
+
+}
+
+/********* Direct Video Sectin Start *********/
+
+.video-section{
+    display: flex;
+    padding: 30px;
+}
+
+.video-1{
+    margin-left: 20px;
+}
+
+/********* Direct video Section End *********/
+
+
+
+/******** Blogs Section Start********/
+
+.blog {
+    width: 1521px;
+    margin-top: 100px;
+    height: 700px;
+
+}
+.blog h1{
+    font-size: 27px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.blog-pic{
+    margin-left: 50px;
+}
+.blog-pic a img{
+    width: 900px;
+
+}
+    
+.blog-pic h1{
+    padding: 5px;
+    padding-left: 180px;
+    font-size: 25px;
+}
+
+
+.blog-pic p{
+    padding-left: 420px;
+}
+
+.latests{
+    margin-left: 50px;
+
+}
+
+.latests h4{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+.pics{
+    display: flex;
+    width: 500px;
+
+}
+
+.pics img{
+    width :180px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.pic-dt{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 30px;
+    row-gap: 20px;
+}
+
+
+.explore{
+    margin-left: 30px;
+}
+
+.explore ul{
+    display:flex
+}
+.explore li{
+    list-style: none;
+    padding-top: 30px;
+}
+
+.explore a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 12px;
+    margin-right: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+/********* Blog Section End **********/
+
+/********* Spotlight Section Start **********/
+.spotlight{
+    width: 1521px;
+
+}
+.spotlight h1{
+    font-family: sans-serif;
+    margin-left: 610px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.spotlight-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotlight-images img{
+    padding: 8px;
+}
+
+
+
+/********* Spotlight Section End  *********/
+
+
+
+/************* Main Section End *************/
+
+
+
+
+/* Footer Section Start */
+
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    width: 1521px;
+    height: 450px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 150px;
+    color: aliceblue;
+    background-color:black !important
+}
+
+.f-logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.m-menu{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 500px;
+    padding-left: 20px;
+
+
+}
+
+
+.linksss a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding-right: 8px;
+    padding-top:20px;
+    font-family: sans-serif;
+}
+
+
+.contacts{
+    width: 500px;
+    display: block;
+
+}
+
+.contacts h4{
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-size: 15px;
+
+}
+
+.contacts a{
+    text-decoration: none;
+    color:azure;
+    font-family: sans-serif;
+    display: block;
+    padding-bottom: px;
+
+}
+
+.contacts h5{
+    padding-top: 30px;
+    color: azure;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.contacts a u{
+    padding-left: 10px;
+    text-underline-offset: 2px;
+
+}
+
+.ico{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 70px;
+
+}
+
+.ico a i{
+    color: aliceblue;
+    font-size: 21px;
+}
+
+
+.services{
+    width: 500px;
+
+}
+
+.services h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    color:aliceblue;
+}
+.services a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    display: block;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.address{
+    width: 500px;
+
+}
+
+.address h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+
+}
+
+.address p{
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    font-size: 14px;
+    display: block;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: aliceblue;  
+    background-color: black;
+    
+
+}
+.footer-end p{
+    font-family: sans-serif;
 
 }
