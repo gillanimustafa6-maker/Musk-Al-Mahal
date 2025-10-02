@@ -605,7 +605,7 @@ menu a:hover{
 
 /********* Spotlight Section End  *********/
 
-/********* Gift Section End  *********/
+/********* Gift Section Start  *********/
 
 .gifts{
     display: flex;
@@ -651,7 +651,9 @@ menu a:hover{
     border-radius: 30px;
 
 }
-/******** Gift Section Start  *********/
+/******** Gift Section End  *********/
+
+/********* Brand Section Start  *********/
 
 main .attars-brands{
     display: flex;
@@ -738,7 +740,91 @@ main .attars-brands{
 
 
 
-/********* Gift Section End  *********/
+/********* Brand Section End  *********/
+
+/********* Retail Store Section start  *********/
+.retail-store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 1000px;
+    background-color: black;
+    height: 600px;
+}
+
+
+ .img img{
+    width: 900px;
+    height: 600px;
+}
+
+.retail-detail{
+    background-color: black;
+    color: aliceblue;
+    width: 800px;
+    height: 600px;
+}
+
+.details{
+    margin: 80px 80px;
+    margin-right: 130px;
+}
+
+.details h1{
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+.details p{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.details a{
+    text-decoration: none;
+    color: black;
+    background-color: #f6f6f6;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+/********* Retail Store Section End  *********/
+/******** Newsletter Section strart  ********/
+.newsletter{
+    text-align: center;
+    background-color: goldenrod;
+    color: #f6f6f6;
+    height: 230px;
+}
+
+.newsletter h1{
+    font-size: 28px;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.email-button input{
+    padding: 15px 20px;
+}
+
+.email-button a{
+    text-decoration: none;
+    background-color: #f6f6f6;
+    color: goldenrod;
+}
+/******** Newsletter Section End  ********/
+
 
 
 /************* Main Section End *************/
