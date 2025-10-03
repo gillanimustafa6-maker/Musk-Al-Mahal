@@ -799,6 +799,27 @@ main .attars-brands{
 
 }
 /********* Retail Store Section End  *********/
+/****** Customer Section Sart  ******/
+.card-list{
+    color: black;
+    background-color: aliceblue;
+
+}
+
+.card-item .iconss {
+    display: flex;
+
+}
+.cardlist .card-item p{
+    font-size: 18px;
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+
+    
+}
+
+/****** Customer Section Sart  ******/
 /******** Newsletter Section strart  ********/
 .newsletter{
     text-align: center;
@@ -814,14 +835,25 @@ main .attars-brands{
     padding-bottom: 30px;
 }
 
+.email-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .email-button input{
-    padding: 15px 20px;
+    padding: 17px 20px;
 }
 
 .email-button a{
     text-decoration: none;
     background-color: #f6f6f6;
     color: goldenrod;
+    padding: 12px 30px;
+    padding-bottom: 20.5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
 }
 /******** Newsletter Section End  ********/
 
